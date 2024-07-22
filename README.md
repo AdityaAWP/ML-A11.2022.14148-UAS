@@ -55,6 +55,7 @@ Memvisualisasikan distribusi umur siswa untuk memahami komposisi umur dalam data
 #### Persiapan Data
 Langkah pertama dalam proses modeling adalah menyiapkan data. Ini meliputi pemilihan fitur (X) dan label (y), serta pembersihan data dengan menghapus baris yang memiliki nilai NaN pada target. 
 
+### Pembagian Dataset
 ```
 X_train, X_test, y_train, y_test = train_test_split(X_preprocessed, y, test_size=0.3, random_state=42)
 ```
