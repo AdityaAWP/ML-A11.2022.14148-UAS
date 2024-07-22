@@ -121,14 +121,16 @@ Untuk model Random Forest, ada feature importance untuk mengidentifikasi fitur-f
 Berikut adalah hasil dari performa modelnya
 
 #### Logistic Regression
+```
 Accuracy: 0.6974789915966386
 Precision: 0.6019534027203115
 Recall: 0.6974789915966386
 F1 Score: 0.6456495112823037
 ROC AUC: Model menunjukkan area di bawah kurva ROC yang baik untuk setiap kelas.
 Confusion Matrix: Memperlihatkan distribusi prediksi benar dan salah.
-
+```
 #### Random Forest
+```
 Accuracy: 0.7226890756302521
 Precision: 0.5822981366459627
 Recall: 0.7226890756302521
@@ -136,7 +138,7 @@ F1 Score: 0.6328876378137461
 ROC AUC: Model menunjukkan area di bawah kurva ROC yang sangat baik untuk setiap kelas.
 Confusion Matrix: Memperlihatkan distribusi prediksi benar dan salah.
 Feature Importance: Mengidentifikasi fitur paling berpengaruh dalam prediksi.
-
+```
 ### Diskusi Hasil dan Kesimpulan
 #### Model Regresi
 - Memberikan prediksi nilai kontinu yang sesuai dengan tren data historis.
