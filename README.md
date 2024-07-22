@@ -1,4 +1,4 @@
-![Distribusi konsumsi alkohol harian](https://github.com/user-attachments/assets/1f4869db-9a52-4fa1-9edd-4d5266826562)# Prediksi Faktor-faktor yang Mempengaruhi Konsumsi Alkohol pada Anak Muda
+# Prediksi Faktor-faktor yang Mempengaruhi Konsumsi Alkohol pada Anak Muda
 
 ## Rigkasan
 
@@ -50,3 +50,16 @@ Memvisualisasikan distribusi umur siswa untuk memahami komposisi umur dalam data
 # Proses Features Dataset
 - Feature Selection: Memilih fitur yang relevan untuk model, termasuk umur, pendidikan orang tua, waktu belajar, dll.
 - Feature Engineering: Ekstraksi informasi tambahan dari fitur yang ada untuk meningkatkan kualitas prediksi.
+
+# Proses Modeling
+#### Persiapan Data
+Langkah pertama dalam proses modeling adalah menyiapkan data. Ini meliputi pemilihan fitur (X) dan label (y), serta pembersihan data dengan menghapus baris yang memiliki nilai NaN pada target. 
+
+```
+X_train, X_test, y_train, y_test = train_test_split(X_preprocessed, y, test_size=0.3, random_state=42)
+```
+### Pembagian Dataset
+Membagi dataset menjadi set pelatihan (training set) dan set pengujian (test set) dengan perbandingan 70:30.  
+
+X_train, X_test, y_train, y_test = train_test_split(X_preprocessed, y, test_size=0.3, random_state=42)
+
