@@ -18,13 +18,13 @@ Model kemudian dikembangkan menjadi model klasifikasi untuk mengelompokkan tingk
 - Penjelasan Dataset:
 - Dataset: Student Alcohol Consumption
 - Fitur Utama:
-  age: Umur siswa
-  Medu: Pendidikan ibu
-  Fedu: Pendidikan ayah
-  studytime: Waktu belajar mingguan
-  failures: Jumlah kegagalan sebelumnya
-  schoolsup: Dukungan tambahan dari sekolah
-  Dalc: Konsumsi alkohol harian
+  age: Umur siswa,
+  Medu: Pendidikan ibu,
+  Fedu: Pendidikan ayah,
+  studytime: Waktu belajar mingguan,
+  failures: Jumlah kegagalan sebelumnya,
+  schoolsup: Dukungan tambahan dari sekolah,
+  Dalc: Konsumsi alkohol harian,
   Walc: Konsumsi alkohol mingguan
 
 # Exploratory Data Analysis (EDA)
